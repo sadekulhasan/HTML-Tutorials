@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border: 1px solid black;
+            width: 300px;
+            height: 200px;
+            border-collapse: collapse;
+        }
+        tr, td{
+            border: 1px solid black;
+        }
+        tr{
+            text-align: center;
+        }
+        caption{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body style="background-color:darkgray;">
+        <h1 align="center">
+            HTML Tutorial
+        </h1><hr><br>
+        <h2 align="center">
+            Table
+        </h2>
+        <table align="center">
+            <caption>
+                Student Details
+            </caption>
+            <!--for color use colgroup-->
+            <colgroup><col span="3" style="background-color:darkslategrey;"></colgroup>
+            <!--first tr, th "table row
+                second tbody,tr, td "table data-->
+                <tr align="center">
+                    <!--scope for more accesible-->
+                    <th scope="col">Name</th>
+                    <th scope="col">ID</th>
+                    <th scope="col">Dept </th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>Shakib</td>
+                        <td>212</td>
+                        <td>CSE</td>
+                    </tr>
+                    <tr>
+                        <td>Saad</td>
+                        <td>212</td>
+                        <td>CSE</td>
+                    </tr>
+                    <tr>
+                        <td>Sayem</td>
+                        <td>212</td>
+                        <td>CSE</td>
+                    </tr>
+                </tbody>
+        </table>
+</body>
+</html>
