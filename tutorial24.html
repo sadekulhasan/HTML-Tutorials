@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+<body style="background-color:darkslategrey ;">
+    <h1 align="center">HTML Tutorial</h1><hr>
+    <h2 align="center">Registration Form</h2>
+    <form action="Registration Form">
+        <div>
+            <label for="Name:">Name: </label> <input type="text" name="name" id="name" required>
+        </div><br>
+        <div>
+            <label for="email">Email: </label> <input type="email" name="email" id="email">
+        </div><br>
+        <div>
+            <label for="password">Password: </label> <input type="password" name="password" id="password">
+        </div><br>
+        <div>
+            <label for="dob">Date of Birth: </label> <input type="date" name="date" id="date">
+        </div><br>
+        <div>
+            <label for="photo">Import Image: </label> <input type="file" name="photo" id="photo">
+        </div><br>
+        <div>
+            <label for="gender">Gender: </label> <input type="radio" name="gender" id="gender">Male: <input type="radio" name="gender" id="gender">Female:
+        </div><br>
+        <div>
+            <label for="religion">Religion: </label> <input type="checkbox" name="religion" id="religion" value="islam"> Islam <input type="checkbox" name="religion" id="religion" value="hindu"> Hindu <input type="checkbox" name="religion" id="religion" value="Buddhist"> Buddhist <input type="checkbox" name="religion" id="religion" value="Christane"> Christane
+        </div><br>
+        <div>
+            <label for="department">Department: </label>
+            <select name="department">
+                <option value="CSE">CSE</option>
+                <option value="EEE">EEE</option>
+                <option value="CIS">CIS</option>
+                <option value="SWE">SWE</option>
+                <option value="Civil">Civil</option>
+            </select>
+        </div><br>
+        <div>
+            <input type="submit" value="Submit Here">
+            <input type="reset" value="Clear All">
+        </div>
+    </form>
+
+</body>
+</html>
